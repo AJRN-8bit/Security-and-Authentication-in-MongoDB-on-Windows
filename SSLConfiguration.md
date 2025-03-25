@@ -75,7 +75,8 @@ This steps where made, but the MongoDB service wouldn't start.
 ![alt text](EvidencePhotos/SSL&TSL_Evidence/StopStartMongoDB.png)
 
 By exhausting research, it can be said that this error is generated because of the Windows system.  
-It is possible that there is a way to make this work, but personally, i couldn't find it.
+It is possible that there is a way to make this work, but personally, i couldn't find it.  
+The TLS protocol was used too, but it had the same outcome, MongoDB service wouldn't start.
 
 Because of this error, the ssl protocol was then disabled/removed from the mongod.cfg file and the MongoDB service was restarted.
 ***
