@@ -7,7 +7,7 @@ Please remember that you have to create the users before enabling the authentica
 
 
 
-## Open the mongo.cfg file
+## Open the mongod.cfg file
 Commonly, this file is located in C:\Program Files\MongoDB\Server\Version\bin.   
 You can open this file using powershell, notepad, notepad++, etc...   
 In this case, notepad was used.   
